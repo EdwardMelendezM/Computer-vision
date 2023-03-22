@@ -18,7 +18,7 @@ th, dst2 = cv2.threshold(img2, thresh, maxValue, cv2.THRESH_BINARY)
 # redimensionamos el tamaño de las imagenes
 dst1 = cv2.resize(dst1, (400, 400), interpolation=cv2.INTER_AREA)
 dst2 = cv2.resize(dst2, (400, 400), interpolation=cv2.INTER_AREA)
-# Aplicando bitwise_xor bit a bit
+# Aplicando bitwise_xor bit a bits
 dst = cv2.bitwise_xor(dst1, dst2)
 # Mostramos resultado
 plt.imshow(dst, cmap='gray')
