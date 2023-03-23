@@ -12,7 +12,7 @@ plt.imshow(template)
 # --dimensiones de la plantilla
 template.shape
 # --lista con los nombres de diferentes métodos de coincidencia de plantillas.
-methods = ["cv2.TM_CCOEFF", "cv2.TM_CCOEFF_NORMED", "cv2.TM_CCORR",
+methods = ["cv2.TM_CCOEFF", "cv2.TM_CCOEFF_NORMED", "cv2. TM_CCORR",
            "cv2.TM_CCORR_NORMED", "cv2.TM_SQDIFF", "cv2.TM_SQDIFF_NORMED"]
 
 # --obtener los resultados para cada metodo
