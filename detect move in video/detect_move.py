@@ -19,10 +19,10 @@ while True:
     if not grabbed:
         break
 
-        # Convertimos a escala de grises
+    # Convertimos a escala de grises
     gris = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
-# Aplicamos suavizado para eliminar ruido
+    # Aplicamos suavizado para eliminar ruido
     gris = cv2.GaussianBlur(gris, (21, 21), 0)
 
 # Si todavía no hemos obtenido el fondo, lo obtenemos
